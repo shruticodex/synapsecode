@@ -1,0 +1,84 @@
+[
+  {
+    "id": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "description": "Given an array of integers and a target, return indices of the two numbers that add up to the target.",
+    "testCases": [
+      { "input": "4\n2 7 11 15\n9", "expectedOutput": "0 1" },
+      { "input": "5\n3 2 4 5 6\n6", "expectedOutput": "1 2" }
+    ]
+  },
+  {
+    "id": "reverse-string",
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "description": "Given a string, return its reverse.",
+    "testCases": [
+      { "input": "hello", "expectedOutput": "olleh" },
+      { "input": "shruti", "expectedOutput": "iturhs" }
+    ]
+  },
+  {
+    "id": "palindrome-number",
+    "title": "Palindrome Number",
+    "difficulty": "Easy",
+    "description": "Check if a given number is a palindrome.",
+    "testCases": [
+      { "input": "121", "expectedOutput": "true" },
+      { "input": "123", "expectedOutput": "false" }
+    ]
+  },
+  {
+    "id": "fibonacci",
+    "title": "Nth Fibonacci Number",
+    "difficulty": "Medium",
+    "description": "Return the Nth Fibonacci number.",
+    "testCases": [
+      { "input": "5", "expectedOutput": "5" },
+      { "input": "10", "expectedOutput": "55" }
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "description": "Check if the input string of brackets is valid (balanced).",
+    "testCases": [
+      { "input": "()", "expectedOutput": "true" },
+      { "input": "([)]", "expectedOutput": "false" },
+      { "input": "()[]{}", "expectedOutput": "true" }
+    ]
+  },
+  {
+    "id": "factorial",
+    "title": "Factorial",
+    "difficulty": "Easy",
+    "description": "Given a number N, return its factorial.",
+    "testCases": [
+      { "input": "5", "expectedOutput": "120" },
+      { "input": "0", "expectedOutput": "1" },
+      { "input": "1", "expectedOutput": "1" }
+    ]
+  },
+  {
+    "id": "sum-of-digits",
+    "title": "Sum of Digits",
+    "difficulty": "Easy",
+    "description": "Return the sum of digits of the given number.",
+    "testCases": [
+      { "input": "123", "expectedOutput": "6" },
+      { "input": "999", "expectedOutput": "27" }
+    ]
+  },
+  {
+    "id": "string-to-uppercase",
+    "title": "String to Uppercase",
+    "difficulty": "Easy",
+    "description": "Convert the input string to uppercase.",
+    "testCases": [
+      { "input": "hello", "expectedOutput": "HELLO" },
+      { "input": "World123", "expectedOutput": "WORLD123" }
+    ]
+  }
+]
